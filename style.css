@@ -121,7 +121,7 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0; }
 .tags li { background: var(--accent-soft); color: var(--accent); padding: 4px 12px; border-radius: 999px; font-size: .85rem; font-weight: 500; }
 .tags.small li { font-size: .78rem; padding: 3px 10px; }
 
-.projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 18px; }
+.projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 18px; }
 .project { display: flex; flex-direction: column; gap: 14px; }
 .project:hover { border-color: var(--accent); transform: translateY(-3px); }
 .project p { margin: 0; color: var(--muted); flex: 1; }
